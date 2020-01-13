@@ -11,6 +11,8 @@ plusieurs carrefours avec différents matérielle, le tout avec : une Base de
 données, un superviseur qui peut changer le mode de fonctionnement (mais pas en
 crée) et un Technicien de maintenance qui crée les cycles de feu.
 
+Bien entendu le tout doit respecter le code de la route.
+
 **Le projet est séparé en 3 Tache :**
 
 Création des commandes de contrôle de la Maquette Electrome – avec les
@@ -45,6 +47,18 @@ Contraintes :
 
 UML
 ===
+
+Scenarii :
+----------
+
+Rasp
+----
+
+Ardui
+-----
+
+jesaispaencore
+--------------
 
 IHM
 ===
