@@ -1,4 +1,12 @@
-## Contrôle de Trafic Urbain
-Nom de code : Traficity.
+##Contrôle de Trafic Urbain
 
-Traficity est un contrôle de trafic urbain nouvelle génération.
+>   Traficity est un contrôle de trafic urbain nouvelle génération.
+
+Mise en situation
+=================
+
+Matérielle
+==========
+
+Contraintes
+===========
