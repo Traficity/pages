@@ -53,52 +53,43 @@ Scenarii :
 
 ### Client :
 
-**Scenario 1: Identification**
+**Scenario 1 : Identification**
 
 Le superviseur démarre l'application de supervision. Il entre ses identifiants
-et clique sur le bouton « connexion ». *post-condition :* Il a accès aux
+et clique sur le bouton « connexion ». *Postcondition :* Il a accès aux
 fonctionnalités de l'application de supervision.
 
-**Scenario 2: Ajout d'un cycle** *pré-condition :* Le superviseur est identifié.
+**Scenario 2 : Ajout d'un cycle** *précondition :* Le superviseur est identifié.
 Il clique sur l'onglet « cycles ».  
 Il clique sur le bouton « Ajout d'un cycle ».  
 Il sélectionne la topologie du carrefour, par exemple « en X ».  
 Il sélectionne un type de cycle, par exemple « en 4 phases ».  
-Il affecte les durées pour chaque feux.  
-Il valide en cliquant sur le bouton « Enregistrer ». *post-condition :* Le cycle
+Il affecte les durées pour chaque feu.  
+Il valide en cliquant sur le bouton « Enregistrer ». *Postcondition :* Le cycle
 est créé dans la base de données.
 
-**Scenario 3: Configurer le mode de fonctionnement** *pré-condition :* Le
+**Scenario 3 : Configurer le mode de fonctionnement** *précondition :* Le
 superviseur est identifié. Il clique sur le bouton « mode de fonctionnement » Il
 sélectionne un carrefour.  
 Il sélectionne le mode de maintenance.  
-*post-condition :* Le carrefour est bien en mode de maintenance.
+*postcondition :* Le carrefour est bien en mode de maintenance.
 
-**Scenario 4: Effectuer maintenance** *pré-condition :* Le carrefour a été placé
+**Scenario 4 : Effectuer maintenance** *précondition :* Le carrefour a été placé
 en mode maintenance par le superviseur.  
 L'opérateur de maintenance se rend sur le lieu du carrefour.  
-Il se raccorde au module contrôleur (arduino ou raspberry pi). Il peut tester
+Il se raccorde au module contrôleur (Arduino ou Raspberry pi). Il peut tester
 chaque entrée ou sortie du carrefour.
 
-**Scenario 5: Programmer les cycles** *pré-condition :* Le carrefour a été placé
+**Scenario 5 : Programmer les cycles** *précondition :* Le carrefour a été placé
 en mode maintenance par le superviseur.  
 Le superviseur a créé un nouveau cycle pour le carrefour.  
 L'opérateur de maintenance se rend sur le lieu du carrefour.  
-Il se raccorde au module contrôleur (arduino ou raspberry pi).  
+Il se raccorde au module contrôleur (Arduino ou Raspberry pi).  
 Il transfère le nouveau cycle sur le contrôleur.  
 Il lance le nouveau cycle implanté.  
-*post-condition :* Le cycle est visible sur les feux tricolores.
+*postcondition :* Le cycle est visible sur les feux tricolores.
 
 ### Développeur :
-
-Rasp
-----
-
-Ardui
------
-
-jesaispaencore
---------------
 
 IHM
 ===
@@ -106,14 +97,14 @@ IHM
 Test
 ====
 
-| Test | Description | résultat |
+| Test | Description | Résultat |
 |------|-------------|----------|
-| 1    |             |          |
-| 2    |             |          |
-| 3    |             |          |
-| 4    |             |          |
-| 5    |             |          |
-| 6    |             |          |
-| 7    |             |          |
+| 1    | 1 desk      | YES/NO   |
+| 2    | 2 desk      | YES/NO   |
+| 3    | 3 desk      | YES/NO   |
+| 4    | 4 desk      | YES/NO   |
+| 5    | 5 desk      | YES/NO   |
+| 6    | 6 desk      | YES/NO   |
+| 7    | 7 desk      | YES/NOa  |
 
 f
